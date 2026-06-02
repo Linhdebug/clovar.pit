@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Debt Slots</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game">
+
+    <header>
+        <h1>DEBT SLOTS</h1>
+
+        <div class="stats">
+
+            <div>💰 Monedas: <span id="coins">10</span></div>
+
+            <div>📉 Deuda: <span id="debt">100</span></div>
+
+            <div>🏆 Ronda: <span id="round">1</span></div>
+
+            <div>🎟 Contrato: <span id="goal">150</span></div>
+
+        </div>
+    </header>
+
+    <section id="slot-machine">
+
+        <div class="reels">
+
+            <div class="reel" id="r1">?</div>
+            <div class="reel" id="r2">?</div>
+            <div class="reel" id="r3">?</div>
+
+        </div>
+
+        <button id="spinBtn">
+            GIRAR (1 moneda)
+        </button>
+
+    </section>
+
+    <section id="artifactSection">
+
+        <h2>Artefactos</h2>
+
+        <div id="artifactList"></div>
+
+    </section>
+
+    <section id="shop">
+
+        <h2>Tienda</h2>
+
+        <div id="shopItems"></div>
+
+    </section>
+
+    <section id="log">
+
+        <h2>Registro</h2>
+
+        <div id="logText"></div>
+
+    </section>
+
+</div>
+
+<script src="js/artifacts.js"></script>
+<script src="js/contracts.js"></script>
+<script src="js/save.js"></script>
+<script src="js/slots.js"></script>
+<script src="js/game.js"></script>
+
+</body>
+</html>
