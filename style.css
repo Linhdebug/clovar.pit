@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+#game{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.reels{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:20px;
+}
+
+.reel{
+    width:120px;
+    height:120px;
+    border:3px solid gold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:48px;
+    background:#222;
+}
+
+button{
+    cursor:pointer;
+    padding:12px 18px;
+    border:none;
+    background:gold;
+    font-weight:bold;
+}
+
+#spinBtn{
+    display:block;
+    margin:auto;
+}
+
+#artifactList,
+#shopItems{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.card{
+    background:#222;
+    border:1px solid #444;
+    padding:10px;
+    width:220px;
+}
+
+#logText{
+    background:#1b1b1b;
+    min-height:120px;
+    padding:10px;
+}
